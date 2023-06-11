@@ -5,3 +5,10 @@ variable "AZ" {}
 variable "default_vpc_id" {}
 variable "default_vpc_cidr" {}
 variable "default_route_table_id" {}
+variable "engine" {}
+variable "docdb_cluster_instances_count" {}
+variable "docdb_instance_class" {}
+variable "rds_engine_version" {}
+variable "docdb_engine_version" {}
+variable "WORKSTATION_IP" {}
+variable "subnet_ids" {}

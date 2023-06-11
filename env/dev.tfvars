@@ -23,3 +23,13 @@ AZ                     = ["us-east-1a", "us-east-1b"]
 default_vpc_id         = "vpc-0615ecd76b6d3e88a"
 default_vpc_cidr       = "172.31.0.0/16"
 default_route_table_id = "rtb-0926f0e4e09c52838"
+
+##DOCDB
+
+engine=docdb
+
+
+#RDS
+rds_engine_version = 5.7.mysql_aurora.2.03.2
+
+#elastic cache
