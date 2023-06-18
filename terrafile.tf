@@ -1,5 +1,5 @@
 vpc:
-source:  "https://github.com/Tejashwini-Rao/tf-module-vpc.git"
+source: "https://github.com/Tejashwini-Rao/tf-module-vpc.git"
 version: "main"
 docdb:
 source:  "https://github.com/Tejashwini-Rao/tf-module-docdb.git"
@@ -15,4 +15,7 @@ source:  "https://github.com/Tejashwini-Rao/tf-module-rabbitmq.git"
 version: "main"
 alb:
 source:  "https://github.com/Tejashwini-Rao/tf-module-alb.git"
+version: "main"
+
+source:  "https://github.com/Tejashwini-Rao/terraform-mutable-infra.git"
 version: "main"

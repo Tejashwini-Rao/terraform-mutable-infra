@@ -15,7 +15,7 @@ pipeline {
       stage('Terraform Apply') {
         steps {
           sh '''
-          cd ${terraPath}
+
           terrafile
           terraform init -backend-config=env/${ENV}-backend.tfvars
 
