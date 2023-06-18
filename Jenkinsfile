@@ -7,7 +7,7 @@ pipeline {
 
     parameters {
       choice(name: 'ENV', choices: ['', 'dev', 'prod'], description: 'Pick Env')
-      string(name: 'APP_VERSION', defaultValue: '2.0.0', description: 'APP_VERSION')
+
     }
 
     stages {
